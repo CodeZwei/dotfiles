@@ -8,6 +8,7 @@
 - link:
     ~/.git-private.conf: "gitconfigs/gitconfig"
     ~/ZweiProjects/.git-zwei.conf: "gitconfigs/git-zwei.conf"
+    ~/.zshrc-private: "zsh/zshrc"
     # Host specific links
 
 - shell:

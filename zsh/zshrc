@@ -1,0 +1,2 @@
+# Root zshrc for CodeZwei
+alias zwei-install="(cd ~/ZweiProjects/dotfiles; git pull -r; sh install)"
