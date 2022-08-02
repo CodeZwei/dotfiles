@@ -1,0 +1,12 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ["~"]
+
+- link:
+    ~/.git-private.conf: "gitconfigs/gitconfig"
+    # Host specific links
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
