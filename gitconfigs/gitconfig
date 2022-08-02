@@ -1,0 +1,4 @@
+# Overrides for git when acting as CodeZwei
+
+[includeIf "gitdir:~/ZweiProjects/"]
+	path = ~/ZweiProjects/.git-zwei.conf

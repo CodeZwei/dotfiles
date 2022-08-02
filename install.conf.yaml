@@ -1,11 +1,13 @@
 - defaults:
     link:
+      create: true
       relink: true
 
 - clean: ["~"]
 
 - link:
     ~/.git-private.conf: "gitconfigs/gitconfig"
+    ~/ZweiProjects/.git-zwei.conf: "gitconfigs/git-zwei.conf"
     # Host specific links
 
 - shell:
